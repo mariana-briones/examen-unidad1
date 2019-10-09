@@ -1,0 +1,102 @@
+
+/* Fonts */
+body {
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+}
+
+.section-test {
+    font-family: 'Turret Road', cursive;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.font-size-24 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.font-size-18 {
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 200;
+}
+
+.font-size-12 {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.border-solid {
+    width: 150px;
+    border: 1px solid;
+}
+
+/* Colors */
+.primary-color {
+    color: #660066 !important;
+}
+
+.primary-color-background {
+    background-color: #660066 !important;
+}
+
+.primary-font-color {
+    color: white !important;
+}
+
+/** Align Text */
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.navbar, .footer, #Experiencia, .yo-soy, #Trabajos, #Contacto{
+    padding: 0 15%;
+}
+
+/** Padding */
+.padding-y-5 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.padding-y-1 {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+/** Margin */
+.maring-x-1{
+    margin: 0 1%;
+}
+
+/* Image Section*/
+@media only screen and (max-width: 600px) {
+    .w-100 {
+        overflow: hidden !important;
+        position: relative !important;
+        left: -70% !important;
+        height: 507px !important;
+        width: auto !important;
+    }
+}
+
+.no-visible{
+    display: none;
+}
